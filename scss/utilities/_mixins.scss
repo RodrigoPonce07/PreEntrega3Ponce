@@ -1,0 +1,11 @@
+@mixin cabeza {
+    background-color: $background-color_1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@mixin cuerpo {
+    font-family: $font-family_1;
+	text-align: center;
+}

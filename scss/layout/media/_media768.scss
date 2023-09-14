@@ -1,0 +1,8 @@
+@media (max-width: 48rem) {
+	header {
+		flex-direction: column;
+	}
+	.categorias {
+		grid-template-columns: 1fr;
+	}
+}

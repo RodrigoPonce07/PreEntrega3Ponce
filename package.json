@@ -1,0 +1,17 @@
+{
+  "name": "coderhousedesarrollowebnutricion",
+  "version": "1.0.0",
+  "description": "![](https://www.unav.edu/documents/10759777/10807902/rueda_alimentos.jpg/135330b4-2c10-4046-bd7b-4f9c40bf9f60?t=1464076429416)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"node-sass --include-path scss ./scss/style.scss ./css/style.css",
+    "watch-css":"nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.0.1"
+  }
+}

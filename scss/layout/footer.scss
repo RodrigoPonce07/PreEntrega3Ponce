@@ -1,0 +1,11 @@
+footer {
+	background-color: $background-color_2;
+	display: flex;
+	gap: 2.5rem;
+	justify-content: center;
+	a {
+		text-decoration: none;
+		font-size: 20px;
+		color: $color_1;
+	}
+}
