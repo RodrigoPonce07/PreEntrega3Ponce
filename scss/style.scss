@@ -14,10 +14,10 @@
 
 @import "./layout/footer.scss";
 
-@import "./layout/media/_media320.scss";
-
-@import "./layout/media/_media480.scss";
+@import "./layout/media/media1024";
 
 @import "./layout/media/_media768.scss";
 
-@import "./layout/media/media1024";
+@import "./layout/media/media425";
+
+@import "./layout/media/_media320.scss";
