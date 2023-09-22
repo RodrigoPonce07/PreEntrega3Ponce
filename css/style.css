@@ -27,14 +27,14 @@ header {
   .navBar li a:hover {
     color: #BC7AF9; }
 
-.alimentacionSaludable, .nutrientesNecesarios, .calorias {
+.alimentacionSaludable, .nutrientesNecesarios, .calorias, .caloriasNecesarias, .transtornosAlimentarios, .sintomas, .recomendaciones, .intro, .clasesDe {
   margin-top: 20px; }
-  .alimentacionSaludable h1, .nutrientesNecesarios h1, .calorias h1 {
+  .alimentacionSaludable h1, .nutrientesNecesarios h1, .calorias h1, .caloriasNecesarias h1, .transtornosAlimentarios h1, .sintomas h1, .recomendaciones h1, .intro h1, .clasesDe h1 {
     font-size: 40px;
     padding-top: 30px; }
-  .alimentacionSaludable p, .nutrientesNecesarios p, .calorias p {
-    font-size: 30px;
-    margin-top: 20px; }
+  .alimentacionSaludable p, .nutrientesNecesarios p, .calorias p, .caloriasNecesarias p, .transtornosAlimentarios p, .sintomas p, .recomendaciones p, .intro p, .clasesDe p {
+    font-size: 140%;
+    margin: 10px 20px 15px 30px; }
 
 .categorias {
   display: grid;
@@ -48,58 +48,6 @@ header {
   height: 150px;
   background-repeat: no-repeat;
   background-position: center center; }
-
-.caloriasNecesarias h1 {
-  padding-top: 30px;
-  font-size: 40px; }
-
-.caloriasNecesarias p {
-  font-size: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px; }
-
-.transtornosAlimentarios h1 {
-  padding-top: 30px;
-  font-size: 40px; }
-
-.transtornosAlimentarios p {
-  font-size: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px; }
-
-.sintomas h1 {
-  padding-top: 30px;
-  font-size: 40px; }
-
-.sintomas p {
-  font-size: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px; }
-
-.recomendaciones h1 {
-  padding-top: 30px;
-  font-size: 40px; }
-
-.recomendaciones p {
-  font-size: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px; }
-
-.intro p {
-  font-size: 30px;
-  margin-top: 20px; }
-
-.intro h1 {
-  font-size: 40px;
-  padding-top: 40px; }
-
-.clasesDe p {
-  font-size: 30px;
-  margin-top: 20px; }
-
-.clasesDe h1 {
-  font-size: 40px;
-  padding-top: 40px; }
 
 footer {
   background-color: #F8FF95;
@@ -123,8 +71,8 @@ footer {
 
 @media (max-width: 26.5625rem) {
   .navBar {
-    gap: .625rem;
-    padding-left: 10px; }
+    gap: 1.25rem;
+    padding-left: 15px; }
   .caloriasGrafico {
     background-image: url(../assets/img/calorias425.jpg); } }
 

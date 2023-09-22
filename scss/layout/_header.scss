@@ -1,6 +1,10 @@
 header {
-	@extend cabeza
+	background-color: $background-color_1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
+
 .navBar {
 	display: flex;
 	gap: 9.375rem;
