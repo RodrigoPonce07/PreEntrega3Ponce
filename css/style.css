@@ -32,6 +32,9 @@ header {
   .alimentacionSaludable h1, .nutrientesNecesarios h1, .calorias h1, .caloriasNecesarias h1, .transtornosAlimentarios h1, .sintomas h1, .recomendaciones h1, .intro h1, .clasesDe h1 {
     font-size: 40px;
     padding-top: 30px; }
+  .alimentacionSaludable h2, .nutrientesNecesarios h2, .calorias h2, .caloriasNecesarias h2, .transtornosAlimentarios h2, .sintomas h2, .recomendaciones h2, .intro h2, .clasesDe h2 {
+    font-size: 40px;
+    padding-top: 30px; }
   .alimentacionSaludable p, .nutrientesNecesarios p, .calorias p, .caloriasNecesarias p, .transtornosAlimentarios p, .sintomas p, .recomendaciones p, .intro p, .clasesDe p {
     font-size: 140%;
     margin: 10px 20px 15px 30px; }
